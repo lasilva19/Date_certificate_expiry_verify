@@ -28,7 +28,7 @@ RESULTADO = EXPIRACAO - HOJE
 DIAS_RESTANTES=RESULTADO.days
 
 
-# Os prints abaixo são para testes, pode-se usa-los ou adaptalos conforme necessidade
+# Os prints abaixo são para testes, pode-se usa-los ou adapta-los conforme necessidade
 print RESULTADO
 print "Data de validade:", EXPIRACAO
 print "Hoje:", HOJE
