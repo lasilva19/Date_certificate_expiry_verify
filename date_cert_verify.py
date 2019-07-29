@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 # Autor: Luciano Silva
-# O objetivo desse script é verificar quantos dias faltam para a expiração de um X.509 certificado no formtato .pem
+# O objetivo desse script é verificar quantos dias faltam para a expiração de um X.509
 
 import datetime
 import commands
