@@ -18,7 +18,7 @@ DIA = int(commands.getoutput("openssl x509 -noout -in nome_ou_caminho_do_arquivo
 
 # Como o openssl retorna o mês com o nome abreviado ao invés de número, é necessário converte-lo
 
-meses = {"Jan":1, "Feb":2, "Mar":3, "Abr":4, "May":5, "June":6, "July":7, "Aug":8, "Sep":7, "Oct":10, "Nov":11, "Dec":12 }
+meses = {"Jan":1, "Feb":2, "Mar":3, "Apr":4, "May":5, "June":6, "July":7, "Aug":8, "Sep":7, "Oct":10, "Nov":11, "Dec":12 }
 
 MES = meses[MES]  
    
