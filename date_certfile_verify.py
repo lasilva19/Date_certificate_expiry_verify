@@ -16,7 +16,7 @@ ANO = int(commands.getoutput("openssl x509 -noout -in "+Arquivo+" -dates | grep 
 MES = (commands.getoutput("openssl x509 -noout -in "+Arquivo+" -dates | grep ""notAfter"" | cut -c10-12"))
 DIA = int(commands.getoutput("openssl x509 -noout -in "+Arquivo+" -dates | grep ""notAfter"" | cut -c14-15"))
 
-# Como o openssl retorna o mês com o nome abreviado ao invés de número, é necessário converte-lo
+# Como o openssl retorna os mêses com os nomes abreviados ao invés de números, é necessário converte-los
 
 meses = {"Jan":1, "Feb":2, "Mar":3, "Abr":4, "May":5, "June":6, "July":7, "Aug":8, "Sep":7, "Oct":10, "Nov":11, "Dec":12 }
 
